@@ -1,0 +1,43 @@
+<svg width="1130" height="1168" viewBox="0 0 1130 1168" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="nirogiBg" cx="30%" cy="25%" r="75%">
+      <stop offset="0%" stop-color="#172B2A"/>
+      <stop offset="55%" stop-color="#0E1313"/>
+      <stop offset="100%" stop-color="#080808"/>
+    </radialGradient>
+  </defs>
+  <rect width="1130" height="1168" rx="20" fill="url(#nirogiBg)"/>
+  <path d="M0 292 H1130 M0 584 H1130 M0 876 H1130 M282 0 V1168 M565 0 V1168 M848 0 V1168" stroke="#FFFFFF" stroke-opacity="0.04"/>
+
+  <rect x="64" y="64" width="210" height="38" rx="19" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.14"/>
+  <circle cx="88" cy="83" r="5" fill="#1FA463"/>
+  <text x="104" y="88" fill="#FFFFFF" fill-opacity="0.88" font-family="Inter, sans-serif" font-size="13" letter-spacing="1.2">AI &amp; HEALTHCARE</text>
+  <text x="1066" y="88" text-anchor="end" fill="#FFFFFF" fill-opacity="0.48" font-family="Inter, sans-serif" font-size="15">04 / 2026</text>
+
+  <!-- Conversational Agent Frame -->
+  <rect x="64" y="160" width="1002" height="670" rx="22" fill="#0F1414" stroke="#FFFFFF" stroke-opacity="0.12"/>
+  <rect x="64" y="160" width="1002" height="58" rx="22" fill="#151D1D"/>
+  <circle cx="104" cy="189" r="7" fill="#1FA463"/>
+  <text x="124" y="194" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="15" font-weight="600">Nirogi-G1 · Healthcare Guidance Agent</text>
+
+  <!-- Chat Bubbles -->
+  <rect x="340" y="258" width="668" height="84" rx="18" fill="#1B2323" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  <text x="372" y="294" fill="#FFFFFF" fill-opacity="0.5" font-family="Inter, sans-serif" font-size="12">USER QUERY</text>
+  <text x="372" y="324" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="18">What steps should I take for persistent fever and fatigue?</text>
+
+  <rect x="112" y="372" width="760" height="226" rx="18" fill="#131919" stroke="#1FA463" stroke-opacity="0.35"/>
+  <text x="148" y="416" fill="#1FA463" font-family="Inter, sans-serif" font-size="13" letter-spacing="1.3">NIROGI-G1 · ACCESSIBLE GUIDANCE</text>
+  <text x="148" y="464" fill="#FFFFFF" font-family="Instrument Serif, Georgia, serif" font-size="34">Structured Hydration, Rest &amp; Escalation Signals</text>
+  <text x="148" y="508" fill="#FFFFFF" fill-opacity="0.7" font-family="Inter, sans-serif" font-size="17">1. Track temperature &amp; duration over 48 hours</text>
+  <text x="148" y="538" fill="#FFFFFF" fill-opacity="0.7" font-family="Inter, sans-serif" font-size="17">2. Seek clinical consultation if above 102°F or accompanied by dizziness</text>
+  <text x="148" y="568" fill="#FF7308" font-family="Inter, sans-serif" font-size="14">Informational guidance · Not a clinical replacement</text>
+
+  <!-- Prompt Input Bar -->
+  <rect x="112" y="640" width="896" height="128" rx="18" fill="#0B0F0F" stroke="#FFFFFF" stroke-opacity="0.1"/>
+  <text x="148" y="692" fill="#FFFFFF" fill-opacity="0.48" font-family="Inter, sans-serif" font-size="17">Ask Nirogi-G1 in plain, everyday language...</text>
+  <rect x="824" y="668" width="150" height="48" rx="24" fill="#FF7308"/>
+  <text x="899" y="698" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="15" font-weight="500">Ask Agent</text>
+
+  <text x="64" y="960" fill="#FFFFFF" font-family="Instrument Serif, Georgia, serif" font-size="96">Nirogi-G1</text>
+  <text x="64" y="1020" fill="#FFFFFF" fill-opacity="0.65" font-family="Inter, sans-serif" font-size="22">Conversational AI Healthcare Guidance Assistant</text>
+</svg>

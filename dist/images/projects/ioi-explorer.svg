@@ -1,0 +1,50 @@
+<svg width="1130" height="1168" viewBox="0 0 1130 1168" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="ioiBg" cx="35%" cy="20%" r="75%">
+      <stop offset="0%" stop-color="#222222"/>
+      <stop offset="55%" stop-color="#111111"/>
+      <stop offset="100%" stop-color="#080808"/>
+    </radialGradient>
+  </defs>
+  <rect width="1130" height="1168" rx="20" fill="url(#ioiBg)"/>
+  <path d="M0 292 H1130 M0 584 H1130 M0 876 H1130 M282 0 V1168 M565 0 V1168 M848 0 V1168" stroke="#FFFFFF" stroke-opacity="0.04"/>
+
+  <rect x="64" y="64" width="295" height="38" rx="19" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.14"/>
+  <circle cx="88" cy="83" r="5" fill="#FF7308"/>
+  <text x="104" y="88" fill="#FFFFFF" fill-opacity="0.88" font-family="Inter, sans-serif" font-size="13" letter-spacing="1.2">OPEN SOURCE &amp; DEV TOOLS</text>
+  <text x="1066" y="88" text-anchor="end" fill="#FFFFFF" fill-opacity="0.48" font-family="Inter, sans-serif" font-size="15">06 / 2026</text>
+
+  <!-- Discovery Grid UI -->
+  <rect x="64" y="160" width="1002" height="670" rx="22" fill="#121212" stroke="#FFFFFF" stroke-opacity="0.12"/>
+  <rect x="104" y="206" width="922" height="62" rx="14" fill="#0B0B0B" stroke="#FFFFFF" stroke-opacity="0.1"/>
+  <text x="136" y="243" fill="#FFFFFF" fill-opacity="0.52" font-family="Inter, sans-serif" font-size="16">Search repositories by stack, AI track, or beginner friendliness...</text>
+
+  <!-- Filter Pills -->
+  <rect x="104" y="294" width="120" height="38" rx="19" fill="#FF7308"/>
+  <text x="164" y="318" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="14">All Tracks</text>
+  <rect x="238" y="294" width="110" height="38" rx="19" fill="#1B1B1B" stroke="#FFFFFF" stroke-opacity="0.12"/>
+  <text x="293" y="318" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="14">Next.js</text>
+  <rect x="362" y="294" width="110" height="38" rx="19" fill="#1B1B1B" stroke="#FFFFFF" stroke-opacity="0.12"/>
+  <text x="417" y="318" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="14">Python AI</text>
+  <rect x="486" y="294" width="136" height="38" rx="19" fill="#1B1B1B" stroke="#FFFFFF" stroke-opacity="0.12"/>
+  <text x="554" y="318" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="14">Bookmarked</text>
+
+  <!-- Repo Cards -->
+  <rect x="104" y="366" width="445" height="190" rx="16" fill="#181818" stroke="#FFFFFF" stroke-opacity="0.1"/>
+  <text x="134" y="414" fill="#FF7308" font-family="Inter, sans-serif" font-size="12">AI / RAG TRACK</text>
+  <text x="134" y="458" fill="#FFFFFF" font-family="Instrument Serif, Georgia, serif" font-size="34">open-rag-toolkit</text>
+  <text x="134" y="502" fill="#FFFFFF" fill-opacity="0.6" font-family="Inter, sans-serif" font-size="15">Good First Issues: 8 · Bookmarked</text>
+
+  <rect x="581" y="366" width="445" height="190" rx="16" fill="#181818" stroke="#FFFFFF" stroke-opacity="0.1"/>
+  <text x="611" y="414" fill="#1FA463" font-family="Inter, sans-serif" font-size="12">FULL-STACK TRACK</text>
+  <text x="611" y="458" fill="#FFFFFF" font-family="Instrument Serif, Georgia, serif" font-size="34">campus-dev-portal</text>
+  <text x="611" y="502" fill="#FFFFFF" fill-opacity="0.6" font-family="Inter, sans-serif" font-size="15">Good First Issues: 5 · Next.js + Prisma</text>
+
+  <rect x="104" y="584" width="922" height="190" rx="16" fill="#181818" stroke="#FFFFFF" stroke-opacity="0.1"/>
+  <text x="134" y="632" fill="#FFFFFF" fill-opacity="0.55" font-family="Inter, sans-serif" font-size="12">CONTRIBUTION GUIDE</text>
+  <text x="134" y="680" fill="#FFFFFF" font-family="Instrument Serif, Georgia, serif" font-size="38">Empowering PW IOI Students to Ship First PRs</text>
+  <text x="134" y="726" fill="#FFFFFF" fill-opacity="0.6" font-family="Inter, sans-serif" font-size="16">Track-filtered project discovery, issue readiness &amp; saved bookmarks</text>
+
+  <text x="64" y="960" fill="#FFFFFF" font-family="Instrument Serif, Georgia, serif" font-size="78">IOI Open-Source Explorer</text>
+  <text x="64" y="1020" fill="#FFFFFF" fill-opacity="0.65" font-family="Inter, sans-serif" font-size="22">Student Developer Contribution Discovery · Next.js &amp; React</text>
+</svg>

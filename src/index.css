@@ -1,0 +1,180 @@
+@import "tailwindcss";
+
+:root {
+  --bg-canvas: #ffffff;
+  --bg-neutral: #f3f3f3;
+  --bg-tint: #fafafa;
+  --bg-black: #000000;
+  --bg-dark: #111111;
+  --bg-dark-surface: #252525;
+  --accent-orange: #ff7308;
+  --accent-orange-secondary: #f3680f;
+  --accent-green: #1fa463;
+  --text-primary: #000000;
+  --text-secondary: rgba(0, 0, 0, 0.7);
+  --text-inverse: #ffffff;
+  --border-light: rgba(0, 0, 0, 0.2);
+  --border-dark: rgba(255, 255, 255, 0.2);
+  --glass-dark: rgba(255, 255, 255, 0.05);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    background-color: var(--bg-canvas);
+    color: var(--text-primary);
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-feature-settings: "blwf" on, "cv03" on, "cv04" on, "cv09" on, "cv11" on;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    margin: 0;
+    background-color: var(--bg-canvas);
+    color: var(--text-primary);
+    overflow-x: clip;
+  }
+}
+
+.font-serif-display {
+  font-family: "Instrument Serif", Georgia, serif;
+}
+
+.font-sans-ui {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+/* Arvian Typography Presets */
+.arvian-h4 {
+  font-family: "Instrument Serif", Georgia, serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.04em;
+  letter-spacing: -0.01em;
+}
+
+@media (min-width: 768px) {
+  .arvian-h4 {
+    font-size: 38px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .arvian-h4 {
+    font-size: 48px;
+  }
+}
+
+.arvian-h2 {
+  font-family: "Instrument Serif", Georgia, serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.05em;
+  letter-spacing: 0em;
+}
+
+@media (min-width: 768px) {
+  .arvian-h2 {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .arvian-h2 {
+    font-size: 30px;
+  }
+}
+
+.arvian-h3 {
+  font-family: "Instrument Serif", Georgia, serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.35em;
+  letter-spacing: -0.02em;
+}
+
+@media (min-width: 768px) {
+  .arvian-h3 {
+    font-size: 26px;
+    line-height: 1.4em;
+  }
+}
+
+.arvian-body {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.55em;
+  letter-spacing: -0.02em;
+  color: var(--text-secondary);
+}
+
+@media (min-width: 1024px) {
+  .arvian-body {
+    font-size: 16px;
+    line-height: 1.5em;
+  }
+}
+
+/* Continuous Marquee Animation */
+@keyframes marquee-scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee-scroll 30s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+/* Custom subtle availability pulse */
+@keyframes pulse-dot {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(31, 164, 99, 0.45);
+  }
+  50% {
+    box-shadow: 0 0 0 6px rgba(31, 164, 99, 0);
+  }
+}
+
+.availability-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  background-color: #1fa463;
+  animation: pulse-dot 2.4s ease-in-out infinite;
+}
+
+/* Responsive full-bleed editorial container matching wide & standard desktops */
+.arvian-container {
+  width: 100%;
+  max-width: 1680px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media (min-width: 768px) {
+  .arvian-container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .arvian-container {
+    padding-left: clamp(48px, 4.5vw, 84px);
+    padding-right: clamp(48px, 4.5vw, 84px);
+  }
+}

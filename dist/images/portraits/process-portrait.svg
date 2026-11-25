@@ -1,0 +1,15 @@
+<svg width="800" height="960" viewBox="0 0 800 960" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="960" rx="20" fill="#F3F3F3"/>
+  <circle cx="400" cy="360" r="220" fill="#F3680F" fill-opacity="0.08"/>
+  <path d="M0 320 H800 M0 640 H800 M400 0 V960" stroke="#000000" stroke-opacity="0.06"/>
+  <path d="M135 960 C145 700 250 595 400 595 C550 595 655 700 665 960 Z" fill="#141414"/>
+  <rect x="348" y="495" width="104" height="124" rx="44" fill="#222222"/>
+  <ellipse cx="400" cy="355" rx="118" ry="146" fill="#222222" stroke="#F3680F" stroke-opacity="0.45" stroke-width="2"/>
+  <rect x="322" y="330" width="64" height="40" rx="10" stroke="#FFFFFF" stroke-opacity="0.45" stroke-width="2"/>
+  <rect x="414" y="330" width="64" height="40" rx="10" stroke="#FFFFFF" stroke-opacity="0.45" stroke-width="2"/>
+  <line x1="386" y1="348" x2="414" y2="348" stroke="#FFFFFF" stroke-opacity="0.45" stroke-width="2"/>
+  <rect x="48" y="48" width="192" height="34" rx="17" fill="#FFFFFF" stroke="#000000" stroke-opacity="0.1"/>
+  <circle cx="70" cy="65" r="5" fill="#F3680F"/>
+  <text x="86" y="70" fill="#000000" fill-opacity="0.78" font-family="Inter, sans-serif" font-size="12" letter-spacing="1">PROCESS PORTRAIT</text>
+  <text x="400" y="886" text-anchor="middle" fill="#FFFFFF" fill-opacity="0.55" font-family="Inter, sans-serif" font-size="13" letter-spacing="1.2">REPLACE WITH public/images/portraits/process-portrait</text>
+</svg>

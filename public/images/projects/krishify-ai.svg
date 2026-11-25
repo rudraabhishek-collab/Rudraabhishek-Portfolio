@@ -1,0 +1,65 @@
+<svg width="1130" height="1168" viewBox="0 0 1130 1168" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="krishifyBg" cx="75%" cy="20%" r="70%">
+      <stop offset="0%" stop-color="#1C3323"/>
+      <stop offset="55%" stop-color="#0E1410"/>
+      <stop offset="100%" stop-color="#080808"/>
+    </radialGradient>
+  </defs>
+  <rect width="1130" height="1168" rx="20" fill="url(#krishifyBg)"/>
+  <path d="M0 292 H1130 M0 584 H1130 M0 876 H1130 M282 0 V1168 M565 0 V1168 M848 0 V1168" stroke="#FFFFFF" stroke-opacity="0.04"/>
+  <!-- Top Editorial Header -->
+  <rect x="64" y="64" width="230" height="38" rx="19" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.14"/>
+  <circle cx="88" cy="83" r="5" fill="#1FA463"/>
+  <text x="104" y="88" fill="#FFFFFF" fill-opacity="0.88" font-family="Inter, sans-serif" font-size="14" letter-spacing="1.4">AI &amp; SUSTAINABILITY</text>
+  <text x="1066" y="88" text-anchor="end" fill="#FFFFFF" fill-opacity="0.48" font-family="Inter, sans-serif" font-size="15">01 / 2026</text>
+
+  <!-- Main Dark Dashboard Card -->
+  <rect x="64" y="160" width="1002" height="670" rx="22" fill="#121714" stroke="#FFFFFF" stroke-opacity="0.12"/>
+  <rect x="64" y="160" width="1002" height="58" rx="22" fill="#181F1A"/>
+  <circle cx="102" cy="189" r="6" fill="#FF7308"/>
+  <circle cx="124" cy="189" r="6" fill="#FFFFFF" fill-opacity="0.25"/>
+  <circle cx="146" cy="189" r="6" fill="#FFFFFF" fill-opacity="0.25"/>
+  <text x="565" y="194" text-anchor="middle" fill="#FFFFFF" fill-opacity="0.6" font-family="Inter, sans-serif" font-size="14">krishify.ai · Verified Agri-Marketplace</text>
+
+  <!-- Left panel: Crop Demand & Loss Reduction -->
+  <rect x="102" y="254" width="560" height="250" rx="16" fill="#0B0E0C" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  <text x="134" y="300" fill="#1FA463" font-family="Inter, sans-serif" font-size="13" letter-spacing="1.4">DEMAND FORECASTING</text>
+  <text x="134" y="346" fill="#FFFFFF" font-family="Instrument Serif, Georgia, serif" font-size="40">Post-Harvest Surplus Alert</text>
+  <text x="134" y="382" fill="#FFFFFF" fill-opacity="0.6" font-family="Inter, sans-serif" font-size="16">Matching regional harvests directly to verified buyers</text>
+  <!-- Sparkline bars -->
+  <rect x="134" y="424" width="46" height="48" rx="6" fill="#1FA463" fill-opacity="0.3"/>
+  <rect x="192" y="408" width="46" height="64" rx="6" fill="#1FA463" fill-opacity="0.45"/>
+  <rect x="250" y="396" width="46" height="76" rx="6" fill="#1FA463" fill-opacity="0.65"/>
+  <rect x="308" y="416" width="46" height="56" rx="6" fill="#FF7308" fill-opacity="0.85"/>
+  <rect x="366" y="388" width="46" height="84" rx="6" fill="#1FA463"/>
+  <rect x="424" y="376" width="46" height="96" rx="6" fill="#1FA463"/>
+  <rect x="482" y="394" width="46" height="78" rx="6" fill="#1FA463" fill-opacity="0.75"/>
+  <rect x="540" y="368" width="84" height="104" rx="6" fill="#FF7308"/>
+
+  <!-- Right panel: Verified Buyer Match -->
+  <rect x="690" y="254" width="338" height="250" rx="16" fill="#0B0E0C" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  <text x="722" y="300" fill="#FF7308" font-family="Inter, sans-serif" font-size="13" letter-spacing="1.4">AI MARKET GUIDANCE</text>
+  <text x="722" y="358" fill="#FFFFFF" font-family="Instrument Serif, Georgia, serif" font-size="56">UN SDG</text>
+  <text x="722" y="398" fill="#FFFFFF" fill-opacity="0.65" font-family="Inter, sans-serif" font-size="16">Zero Hunger &amp; Responsible Supply</text>
+  <rect x="722" y="430" width="274" height="44" rx="10" fill="#1A241E" stroke="#1FA463" stroke-opacity="0.4"/>
+  <text x="859" y="457" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="14">3 Verified Buyers Nearby</text>
+
+  <!-- Bottom Row inside UI -->
+  <rect x="102" y="532" width="300" height="258" rx="16" fill="#161C18" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  <text x="132" y="576" fill="#FFFFFF" fill-opacity="0.55" font-family="Inter, sans-serif" font-size="13">STACK</text>
+  <text x="132" y="624" fill="#FFFFFF" font-family="Instrument Serif, Georgia, serif" font-size="34">Next.js</text>
+  <text x="132" y="666" fill="#FFFFFF" font-family="Instrument Serif, Georgia, serif" font-size="34">Prisma + MySQL</text>
+  <text x="132" y="708" fill="#FFFFFF" font-family="Instrument Serif, Georgia, serif" font-size="34">Tailwind CSS</text>
+
+  <rect x="426" y="532" width="602" height="258" rx="16" fill="#161C18" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  <text x="458" y="576" fill="#FFFFFF" fill-opacity="0.55" font-family="Inter, sans-serif" font-size="13">PROGRAM</text>
+  <text x="458" y="636" fill="#FFFFFF" font-family="Instrument Serif, Georgia, serif" font-size="44">1M1B × IBM SkillsBuild × AICTE</text>
+  <text x="458" y="684" fill="#FFFFFF" fill-opacity="0.62" font-family="Inter, sans-serif" font-size="17">Connecting farmers &amp; buyers via AI crop advisory</text>
+  <rect x="458" y="718" width="160" height="36" rx="18" fill="#FF7308"/>
+  <text x="538" y="741" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="14" font-weight="500">Krishify AI</text>
+
+  <!-- Bottom Caption -->
+  <text x="64" y="960" fill="#FFFFFF" font-family="Instrument Serif, Georgia, serif" font-size="96">Krishify AI</text>
+  <text x="64" y="1020" fill="#FFFFFF" fill-opacity="0.65" font-family="Inter, sans-serif" font-size="22">Sustainable Agricultural Marketplace · Reduced Post-Harvest Loss</text>
+</svg>

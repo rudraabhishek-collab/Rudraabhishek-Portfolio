@@ -1,0 +1,50 @@
+<svg width="1130" height="1168" viewBox="0 0 1130 1168" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="voteBg" cx="70%" cy="25%" r="75%">
+      <stop offset="0%" stop-color="#1E2538"/>
+      <stop offset="55%" stop-color="#101218"/>
+      <stop offset="100%" stop-color="#080808"/>
+    </radialGradient>
+  </defs>
+  <rect width="1130" height="1168" rx="20" fill="url(#voteBg)"/>
+  <path d="M0 292 H1130 M0 584 H1130 M0 876 H1130 M282 0 V1168 M565 0 V1168 M848 0 V1168" stroke="#FFFFFF" stroke-opacity="0.04"/>
+
+  <rect x="64" y="64" width="245" height="38" rx="19" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.14"/>
+  <circle cx="88" cy="83" r="5" fill="#FF7308"/>
+  <text x="104" y="88" fill="#FFFFFF" fill-opacity="0.88" font-family="Inter, sans-serif" font-size="13" letter-spacing="1.2">AI &amp; CIVIC TECHNOLOGY</text>
+  <text x="1066" y="88" text-anchor="end" fill="#FFFFFF" fill-opacity="0.48" font-family="Inter, sans-serif" font-size="15">03 / 2026</text>
+
+  <!-- Civic Comparison Card -->
+  <rect x="64" y="160" width="1002" height="670" rx="22" fill="#101216" stroke="#FFFFFF" stroke-opacity="0.12"/>
+  <text x="112" y="226" fill="#FF7308" font-family="Inter, sans-serif" font-size="13" letter-spacing="1.4">RESPONSIBLE AI · NEUTRAL CIVIC BRIEF</text>
+  <text x="112" y="280" fill="#FFFFFF" font-family="Instrument Serif, Georgia, serif" font-size="46">First-Time Voter Decision Matrix</text>
+
+  <!-- Candidate A vs B -->
+  <rect x="112" y="324" width="430" height="320" rx="18" fill="#171A22" stroke="#FFFFFF" stroke-opacity="0.1"/>
+  <text x="144" y="372" fill="#FFFFFF" font-family="Instrument Serif, Georgia, serif" font-size="34">Candidate Profile A</text>
+  <text x="144" y="408" fill="#FFFFFF" fill-opacity="0.55" font-family="Inter, sans-serif" font-size="15">Manifesto · Policy Pillars · Record</text>
+  <rect x="144" y="440" width="366" height="44" rx="10" fill="#0E1015"/>
+  <text x="164" y="467" fill="#FFFFFF" fill-opacity="0.82" font-family="Inter, sans-serif" font-size="14">Education &amp; Digital Infrastructure</text>
+  <rect x="144" y="500" width="366" height="44" rx="10" fill="#0E1015"/>
+  <text x="164" y="527" fill="#FFFFFF" fill-opacity="0.82" font-family="Inter, sans-serif" font-size="14">Local Employment Commitments</text>
+  <rect x="144" y="560" width="366" height="44" rx="10" fill="#0E1015"/>
+  <text x="164" y="587" fill="#1FA463" font-family="Inter, sans-serif" font-size="14">Verified Public Filings Linked</text>
+
+  <rect x="588" y="324" width="430" height="320" rx="18" fill="#171A22" stroke="#FFFFFF" stroke-opacity="0.1"/>
+  <text x="620" y="372" fill="#FFFFFF" font-family="Instrument Serif, Georgia, serif" font-size="34">Candidate Profile B</text>
+  <text x="620" y="408" fill="#FFFFFF" fill-opacity="0.55" font-family="Inter, sans-serif" font-size="15">Manifesto · Policy Pillars · Record</text>
+  <rect x="620" y="440" width="366" height="44" rx="10" fill="#0E1015"/>
+  <text x="640" y="467" fill="#FFFFFF" fill-opacity="0.82" font-family="Inter, sans-serif" font-size="14">Healthcare &amp; Civic Transit Plan</text>
+  <rect x="620" y="500" width="366" height="44" rx="10" fill="#0E1015"/>
+  <text x="640" y="527" fill="#FFFFFF" fill-opacity="0.82" font-family="Inter, sans-serif" font-size="14">Clean Energy &amp; Youth Grants</text>
+  <rect x="620" y="560" width="366" height="44" rx="10" fill="#0E1015"/>
+  <text x="640" y="587" fill="#1FA463" font-family="Inter, sans-serif" font-size="14">Neutral AI Summary Verified</text>
+
+  <!-- Accessibility bar -->
+  <rect x="112" y="676" width="906" height="106" rx="16" fill="#14171F" stroke="#FF7308" stroke-opacity="0.3"/>
+  <text x="148" y="722" fill="#FF7308" font-family="Inter, sans-serif" font-size="13" letter-spacing="1.2">ACCESSIBILITY &amp; GOOGLE SERVICES</text>
+  <text x="148" y="756" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="18">Unbiased candidate comparisons &amp; plain-language voting checklists</text>
+
+  <text x="64" y="960" fill="#FFFFFF" font-family="Instrument Serif, Georgia, serif" font-size="96">VoteGenie</text>
+  <text x="64" y="1020" fill="#FFFFFF" fill-opacity="0.65" font-family="Inter, sans-serif" font-size="22">AI-Assisted Civic Transparency &amp; Voter Insights</text>
+</svg>

@@ -1,0 +1,38 @@
+<svg width="900" height="1060" viewBox="0 0 900 1060" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="heroGlow" cx="50%" cy="42%" r="50%">
+      <stop offset="0%" stop-color="#1A1A1A"/>
+      <stop offset="100%" stop-color="#050505"/>
+    </radialGradient>
+    <linearGradient id="rimLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF7308" stop-opacity="0.45"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#111111" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="portraitClip">
+      <rect x="130" y="60" width="640" height="940" rx="320"/>
+    </clipPath>
+  </defs>
+
+  <!-- Minimalist editorial portrait cutout silhouette -->
+  <g clip-path="url(#portraitClip)">
+    <rect x="130" y="60" width="640" height="940" fill="url(#heroGlow)"/>
+    <!-- Subtle architectural grid -->
+    <path d="M130 300 H770 M130 540 H770 M130 780 H770 M450 60 V1000" stroke="#FFFFFF" stroke-opacity="0.06" stroke-width="1"/>
+    <!-- Ambient orange halo -->
+    <circle cx="450" cy="370" r="210" fill="#FF7308" fill-opacity="0.09"/>
+    <!-- Stylized editorial bust silhouette -->
+    <path d="M195 1000 C195 765 290 655 450 655 C610 655 705 765 705 1000 Z" fill="#141414" stroke="url(#rimLight)" stroke-width="2"/>
+    <rect x="394" y="555" width="112" height="130" rx="48" fill="#181818"/>
+    <ellipse cx="450" cy="405" rx="132" ry="164" fill="#181818" stroke="url(#rimLight)" stroke-width="2"/>
+    <!-- Glasses detail echo -->
+    <rect x="364" y="374" width="70" height="44" rx="12" stroke="#FFFFFF" stroke-opacity="0.32" stroke-width="2.5" fill="none"/>
+    <rect x="466" y="374" width="70" height="44" rx="12" stroke="#FFFFFF" stroke-opacity="0.32" stroke-width="2.5" fill="none"/>
+    <line x1="434" y1="394" x2="466" y2="394" stroke="#FFFFFF" stroke-opacity="0.32" stroke-width="2.5"/>
+    <!-- Subtle collar line -->
+    <path d="M352 676 Q450 726 548 676" stroke="#FF7308" stroke-opacity="0.55" stroke-width="2" fill="none"/>
+    <!-- Replace note -->
+    <rect x="275" y="845" width="350" height="42" rx="21" fill="#000000" fill-opacity="0.65" stroke="#FFFFFF" stroke-opacity="0.16"/>
+    <text x="450" y="871" text-anchor="middle" fill="#FFFFFF" fill-opacity="0.72" font-family="Inter, sans-serif" font-size="13" letter-spacing="1.4">HERO PORTRAIT PLACEHOLDER</text>
+  </g>
+</svg>
